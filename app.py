@@ -66,10 +66,10 @@ def palette_prompt():
 @app.route("/")
 def index():
     """
-    Render the main index.html page.
+    Flask route to handle the root path request and render the main index.html page.
 
     Returns:
-        render_template: The rendered HTML template.
+        render_template: The rendered HTML template for the main page.
     """
     return render_template("index.html")
 
