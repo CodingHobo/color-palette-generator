@@ -124,17 +124,16 @@ clearBtn.addEventListener("click", function() {
   container.innerHTML = `
     <div class="header-section">
     <h2>Color Palette Generator</h2>
-    <p>Enter a few words to describe a palette you'd like to see. For example:</p>
-    <p>"The Mona Lisa", "misty morning on the lake in spring", "Wes Anderson's 'The Life Aquatic'"</p>
-    <p>You may submit the same prompt more than once to see various palettes, or clear the form to start a new prompt.</p>
-    <p>If you see a color you love, click on it and it will be saved to your clipboard.</p>
-    <h2>Color Generator Tech Stack:</h2>
-    <ul>
-        <li><strong>Backend:</strong> Python &amp; Flask</li>
-        <li><strong>Frontend:</strong> HTML (with DOM Manipulation) &amp; CSS</li>
-        <li><strong>Deployment:</strong> Google App Engine</li>
-    </ul>
-    <p>TECH STACK: Python/ Flask | HTML</p>
+      <p>Enter a few words to describe a palette you'd like to see. For example:</p>
+      <p>"The Mona Lisa", "misty morning on the lake in spring", "Wes Anderson's 'The Life Aquatic'"</p>
+      <p>You may submit the same prompt more than once to see various palettes, or clear the form to start a new prompt.</p>
+      <p>If you see a color you love, click on it and it will be saved to your clipboard.</p>
+      <h2>Tech Stack:</h2>
+      <ul>
+          <li><strong>Backend:</strong> Python &amp; Flask</li>
+          <li><strong>Frontend:</strong> HTML (with DOM Manipulation) &amp; CSS</li>
+          <li><strong>Deployment:</strong> Google App Engine</li>
+      </ul>
     </div>
   `;
 });
