@@ -131,6 +131,7 @@ clearBtn.addEventListener("click", function() {
       <h2>Tech Stack:</h2>
       <ul>
           <li><strong>Backend:</strong> Python &amp; Flask</li>
+          <li><strong>AI:</strong> OpenAI GPT-3 API</li>
           <li><strong>Frontend:</strong> HTML (with DOM Manipulation) &amp; CSS</li>
           <li><strong>Deployment:</strong> Google App Engine</li>
       </ul>
